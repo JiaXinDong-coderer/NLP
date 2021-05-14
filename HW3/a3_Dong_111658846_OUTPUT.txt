@@ -1,0 +1,45 @@
+CHECKPOINT 2.2 - counts
+1 grams
+('language',) 760
+('the',) 3828
+('formal',) 14
+2 grams
+('the', 'language') 74
+('<OOV>', 'language') 62
+('to', 'process') 6
+3 grams
+('specific', 'formal', 'languages') 1
+('to', 'process', '<OOV>') 0
+('specific', 'formal', 'event') 0
+
+CHECKPOINT 2.3 - Probs with addone
+2 grams:
+('the', 'language') 0.008495695514272768
+('<OOV>', 'language') 0.005809664330505349
+('to', 'process') 0.0011058451816745656
+3 grams:
+('specific', 'formal', 'languages') 0.0004991223534311885
+('to', 'process', '<OOV>') 0.0014032625855113139
+('specific', 'formal', 'event') Not valid Wi
+
+FINAL CHECKPOINT - Generated Language
+
+PROMPT: <s>
+     <s> <OOV> batch runs . the exception handling . </s>
+     <s> various parts among the back prior to washing machine created two australian and better process produces the hawaiian and still used the framework which powder was so he concluded that belong
+     <s> the irish . cash-out ) -- is achieved sustained , automotive engineering company he attended st john ( except the smaller , analyzing existing quantum computers will do n processes using
+
+PROMPT: <s> language is
+     <s> language is tammany ; test simply state the false statement of sufficient either input point . </s>
+     <s> language is open and future years . </s>
+     <s> language is high level , analyzing and supports color , , 1995 ) <OOV> result either statistical experiment . </s>
+
+PROMPT: <s> machines
+     <s> machines hold their children , franz reuleaux had a model has defined by machine projects due to help <OOV> attempts at all but takes a representation , standards for materials needed
+     <s> machines are yellow &amp; explained . </s>
+     <s> machines do not activated by other prominent ; this question [ machine based on her sewing invented by adding words that turing machines called embryonic <OOV> in daily working in economics
+
+PROMPT: <s> they want to process
+     <s> they want to process takes on decades before their voice greek attic greek is of negative reinforcement for liesegang rings form is discussed in this story of 2007 respectively , g
+     <s> they want to process models see language allows certain aspects of byzantium and eventually invented katharevousa . </s>
+     <s> they want to process of photography and features are maintained , laboratory is what alice found there , cash <OOV> threshing machines with ingersoll machine depends heavily tonal feeling of categories

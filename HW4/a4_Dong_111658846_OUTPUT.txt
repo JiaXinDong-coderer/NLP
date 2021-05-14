@@ -1,0 +1,37 @@
+Drive already mounted at /content/gdrive; to attempt to forcibly remount, call drive.mount("/content/gdrive", force_remount=True).
+[1,     8] loss: 0.014
+[2,     8] loss: 0.014
+[3,     8] loss: 0.014
+[4,     8] loss: 0.014
+[5,     8] loss: 0.014
+[6,     8] loss: 0.014
+[7,     8] loss: 0.014
+[8,     8] loss: 0.014
+[9,     8] loss: 0.014
+[10,     8] loss: 0.014
+Finished Training
+Accuracy rate is: 0.7176470588235294
+
+
+Accuraccy rate of question model is: 0.7176470588235294
+
+
+Accuraccy rate of passage model is: 0.6941176470588235
+
+
+Accuraccy rate of full question-passage model is: 0.7176470588235294
+----------------------------------------------------------------------
+Three Questions:
+
+Question 1: Is weather going to be change at constant rate?
+Answer 1: False
+Question 2: Am I the most handsome man on the world?
+Answer 2: False
+Question 3: Could you please say yes?
+Answer 3: False
+----------------------------------------------------------------------
+
+
+Accuraccy rate of passage model is: 0.7176470588235294
+Now making prediction on Test set...
+

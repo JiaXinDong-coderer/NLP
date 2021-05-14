@@ -1,0 +1,166 @@
+
+LOADING DATA...
+Extract X and Y from train set: 
+Extract X and Y from test set: 
+
+Training Process...
+  epoch: 0, loss: 1.77690
+  epoch: 20, loss: 0.98818
+  epoch: 40, loss: 0.96842
+  epoch: 60, loss: 0.95258
+  epoch: 80, loss: 0.93896
+  epoch: 100, loss: 0.92708
+  epoch: 120, loss: 0.91662
+  epoch: 140, loss: 0.90730
+  epoch: 160, loss: 0.89892
+  epoch: 180, loss: 0.89130
+  epoch: 200, loss: 0.88432
+  epoch: 220, loss: 0.87786
+  epoch: 240, loss: 0.87184
+  epoch: 260, loss: 0.86621
+  epoch: 280, loss: 0.86090
+
+Training Machine...
+  epoch: 0, loss: 1.79593
+  epoch: 20, loss: 0.96331
+  epoch: 40, loss: 0.93302
+  epoch: 60, loss: 0.91083
+  epoch: 80, loss: 0.89282
+  epoch: 100, loss: 0.87756
+  epoch: 120, loss: 0.86429
+  epoch: 140, loss: 0.85247
+  epoch: 160, loss: 0.84178
+  epoch: 180, loss: 0.83198
+  epoch: 200, loss: 0.82293
+  epoch: 220, loss: 0.81449
+  epoch: 240, loss: 0.80659
+  epoch: 260, loss: 0.79915
+  epoch: 280, loss: 0.79214
+
+Training Language...
+  epoch: 0, loss: 1.78408
+  epoch: 20, loss: 0.97352
+  epoch: 40, loss: 0.94610
+  epoch: 60, loss: 0.92508
+  epoch: 80, loss: 0.90719
+  epoch: 100, loss: 0.89140
+  epoch: 120, loss: 0.87716
+  epoch: 140, loss: 0.86417
+  epoch: 160, loss: 0.85220
+  epoch: 180, loss: 0.84111
+  epoch: 200, loss: 0.83077
+  epoch: 220, loss: 0.82109
+  epoch: 240, loss: 0.81200
+  epoch: 260, loss: 0.80344
+  epoch: 280, loss: 0.79535
+
+Predicting Values:
+
+Process:
+predictions for process.NOUN.000018: [-0.3698381781578064, 2.2418694496154785, 0.9395841956138611, -1.0262398719787598, -1.2332884073257446, -0.5506235361099243]
+predictions for process.NOUN.000024: [0.7132138609886169, 2.696632146835327, 0.5135968327522278, -1.6410057544708252, -1.2286168336868286, -1.0029919147491455]
+process correct: 0.7227722772277227
+146 out of 202
+
+Machine:
+predictions for machine.NOUN.000004: [2.4105772972106934, -0.10616732388734818, 0.738958477973938, -0.6015994548797607, -1.0286885499954224, -1.4237253665924072]
+predictions for machine.NOUN.000008: [2.2583181858062744, -0.5419410467147827, 1.8244341611862183, -0.24548470973968506, -1.5148649215698242, -1.7716352939605713]
+machine correct: 0.693069306930693
+140 out of 202
+
+Language:
+predictions for process.NOUN.000018: [-1.4096992015838623, 2.4069695472717285, -0.5801293849945068, -1.0429656505584717, 0.03603271022439003, 0.5995092391967773]
+predictions for process.NOUN.000024: [-1.4096992015838623, 2.4069695472717285, -0.5801293849945068, -1.0429656505584717, 0.03603271022439003, 0.5995092391967773]
+language correct: 0.7376237623762376
+149 out of 202
+
+Calculating Matrix... will take a while
+
+Output Euclidean distance: 
+('language', 'process') : 1.384972575401544
+('machine', 'process') : 1.3847150394085075
+('language', 'speak') : 0.9362719931809406
+('word', 'words') : 0.20868007842910158
+('word', 'the') : 0.9967380720855791
+
+Train models by using new embedding...
+
+Training New Process...
+  epoch: 0, loss: 1.78045
+  epoch: 20, loss: 0.97944
+  epoch: 40, loss: 0.95366
+  epoch: 60, loss: 0.93529
+  epoch: 80, loss: 0.92086
+  epoch: 100, loss: 0.90893
+  epoch: 120, loss: 0.89873
+  epoch: 140, loss: 0.88979
+  epoch: 160, loss: 0.88182
+  epoch: 180, loss: 0.87461
+  epoch: 200, loss: 0.86801
+  epoch: 220, loss: 0.86193
+  epoch: 240, loss: 0.85627
+  epoch: 260, loss: 0.85099
+  epoch: 280, loss: 0.84603
+  epoch: 300, loss: 0.84136
+  epoch: 320, loss: 0.83693
+  epoch: 340, loss: 0.83274
+
+Training New Machine...
+  epoch: 0, loss: 1.82050
+  epoch: 20, loss: 0.95906
+  epoch: 40, loss: 0.93156
+  epoch: 60, loss: 0.91177
+  epoch: 80, loss: 0.89595
+  epoch: 100, loss: 0.88270
+  epoch: 120, loss: 0.87128
+  epoch: 140, loss: 0.86124
+  epoch: 160, loss: 0.85226
+  epoch: 180, loss: 0.84414
+  epoch: 200, loss: 0.83672
+  epoch: 220, loss: 0.82990
+  epoch: 240, loss: 0.82358
+  epoch: 260, loss: 0.81770
+  epoch: 280, loss: 0.81219
+  epoch: 300, loss: 0.80702
+  epoch: 320, loss: 0.80215
+  epoch: 340, loss: 0.79754
+
+Training New Language...
+  epoch: 0, loss: 1.80845
+  epoch: 20, loss: 0.96331
+  epoch: 40, loss: 0.93482
+  epoch: 60, loss: 0.91508
+  epoch: 80, loss: 0.89971
+  epoch: 100, loss: 0.88698
+  epoch: 120, loss: 0.87601
+  epoch: 140, loss: 0.86633
+  epoch: 160, loss: 0.85764
+  epoch: 180, loss: 0.84975
+  epoch: 200, loss: 0.84253
+  epoch: 220, loss: 0.83586
+  epoch: 240, loss: 0.82967
+  epoch: 260, loss: 0.82391
+  epoch: 280, loss: 0.81852
+  epoch: 300, loss: 0.81345
+  epoch: 320, loss: 0.80867
+  epoch: 340, loss: 0.80416
+
+Predicting Values:
+
+Process:
+predictions for process.NOUN.000018: [-0.2752925753593445, 2.407545566558838, 1.388903021812439, -1.4454891681671143, -1.2003904581069946, -0.8307458162307739]
+predictions for process.NOUN.000024: [1.358254313468933, 3.0600035190582275, 0.75447678565979, -2.1687726974487305, -1.2723350524902344, -1.6177574396133423]
+process correct: 0.698019801980198
+141 out of 202
+
+Machine:
+predictions for machine.NOUN.000004: [2.532813549041748, -0.17607280611991882, 0.6879593133926392, -0.44318336248397827, -0.9629243612289429, -1.7014470100402832]
+predictions for machine.NOUN.000008: [2.5207443237304688, -0.7078676223754883, 1.6505037546157837, 0.02872045338153839, -1.4781984090805054, -1.9696433544158936]
+machine correct: 0.6881188118811881
+139 out of 202
+
+Language:
+predictions for process.NOUN.000018: [-1.372444748878479, 2.4519639015197754, -0.4592313766479492, -1.306349754333496, -0.06292584538459778, 0.7093971967697144]
+predictions for process.NOUN.000024: [-0.7847583889961243, 1.7925591468811035, -0.3697182536125183, -0.6164714097976685, -0.09819729626178741, -0.026731133460998535]
+process correct: 0.6881188118811881
+139 out of 202
